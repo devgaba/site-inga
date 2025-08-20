@@ -1,0 +1,38 @@
+@media (min-width: 1260px) {
+    #menu-navegacao{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 35vw;
+    padding: 0px;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+}
+
+#botao-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+#botao-cabecalho div button{
+    font-size: 13px;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 1px solid #2E4F3D;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+#botao-cabecalho div button:hover{
+    background-color: #2E4F3D;
+    color: white;
+}
+
+#menu-navegacao li a:hover{
+    text-decoration: underline 2px #2E4F3D;
+    text-underline-offset: 5px;
+}
+
+}

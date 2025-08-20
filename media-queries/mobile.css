@@ -1,0 +1,434 @@
+
+
+@media (min-width:120px) and (max-width: 319px) {
+
+
+    /*CABEÇALHO*/
+    header, .content{
+        margin: 0px 15px;
+    }
+    header{
+        height: 120px;
+    }
+    #logo{
+    width: 60px;
+    height: auto;
+    }
+
+    #menu-sanduiche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    }
+    #menu-sanduiche .line-menu-sanduiche{
+    width: 30px;
+    height: 6px;
+    background-color: #698167;
+    }
+
+
+    /*SEÇÃO INTRO - INGÁ*/
+    #titulo-section-intro{
+    width: 90%;
+    }
+
+    #descricao-intro{
+    width: 90%;
+    }
+
+    .intro div h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #2E4F3D;
+    }
+
+    .intro div p {
+    font-family: "Nunito", sans-serif;
+    font-size: 13.5px;
+    line-height: 193.09%;
+    color: #2E4F3D;
+    margin: 0px;
+    }
+
+    #botoes-intro{
+    flex-wrap: wrap;
+    width: 70%;
+    }
+
+    #botoes-intro button{
+    font-size: 10px;
+    width: 100px;
+    }
+
+
+    /*SEÇÃO - SOBRE*/
+
+    #titulo-section-sobre{
+    height: 84px;
+    }
+
+    #sobre-inga{
+    width: 100%;
+    height: 868px;
+    background-image: linear-gradient(to bottom, white 84px, #2E4F3D 84px);
+    }
+
+    #titulo-section-sobre h1{
+        font-size: 24px;
+        margin: 0px 0px 12px 0px;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:396px) {
+
+    /*CABEÇALHO*/
+    header, .content{
+    margin: 0px 15px;
+    }
+    header{
+    height: 120px;
+    }
+    #logo{
+    width: 90px;
+    height: auto;
+    }
+
+    #menu-sanduiche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    }
+    #menu-sanduiche .line-menu-sanduiche{
+    width: 30px;
+    height: 6px;
+    background-color: #698167;
+    }
+
+
+    /*SEÇÃO INTRO*/
+    #titulo-section-intro{
+    width: 300px;
+    }
+
+    #descricao-intro{
+    width: 90%;
+    }
+
+    .intro div h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #2E4F3D;
+    }
+
+    .intro div p {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    line-height: 193.09%;
+    color: #2E4F3D;
+    margin: 0px;
+    }
+
+    #botoes-intro{
+    flex-wrap: wrap;
+    width: 250px;
+    }
+
+    #botoes-intro button{
+    font-size: 10px;
+    width: 100px;
+    }
+
+    /*SEÇÃO - SOBRE*/
+
+    #titulo-section-sobre{
+    height: 84px;
+    }
+
+    #sobre-inga{
+    width: 100%;
+    height: 868px;
+    background-image: linear-gradient(to bottom, white 84px, #2E4F3D 84px);
+    }
+
+    #titulo-section-sobre h1{
+        font-size: 24px;
+        margin: 0px 0px 12px 0px;
+    }
+
+    #descricao-um{
+        background-position: -350px;
+        background-color: rgba(46, 79, 61, 0.5);
+        
+        
+    }
+    #descricao-dois{
+        background-position: -350px;
+    }
+
+    #descricao-um p,
+    #descricao-dois p{
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width:397px) and (max-width:579px) {
+
+    /*CABEÇALHO*/
+    header, .content{
+        margin: 0px 30px;
+    }
+
+     #menu-sanduiche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50px;
+    height: 40px;
+    }
+    #menu-sanduiche .line-menu-sanduiche{
+    width: 40px;
+    height: 8px;
+    background-color: #698167;
+    }
+
+    /*SEÇÃO INTRO*/
+    #titulo-section-intro{
+    width: 350px;
+    }
+
+    #descricao-intro{
+    width: 340px;
+    }
+
+    .intro div h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #2E4F3D;
+    }
+
+    .intro div p {
+    font-family: "Nunito", sans-serif;
+    font-size: 15.1px;
+    line-height: 193.09%;
+    color: #2E4F3D;
+    margin: 0px;
+    }
+
+    #botoes-intro{
+        width: 250px;
+    }
+
+    #botoes-intro button{
+    font-size: 10px;
+    width: 100px;
+    }
+
+    /*SEÇÃO - SOBRE*/
+
+    #titulo-section-sobre{
+    height: 84px;
+    }
+
+    #sobre-inga{
+    width: 100%;
+    height: 868px;
+    background-image: linear-gradient(to bottom, white 84px, #2E4F3D 84px);
+    }
+
+    #titulo-section-sobre h1{
+        font-size: 24px;
+        margin: 0px 0px 12px 0px;
+    }
+
+        #descricao-um{
+        background-position: -50px;
+    }
+    #descricao-dois{
+        background-position: -350px;
+    }
+
+    #descricao-um p,
+    #descricao-dois p{
+        font-size: 10px;
+    }
+
+}
+
+
+@media (min-width:580px) and (max-width:780px) {
+
+    /*CABEÇALHO*/
+    header, .content{
+        margin: 0px 70px;
+    }
+
+    #menu-sanduiche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50px;
+    height: 45px;
+    }
+    #menu-sanduiche .line-menu-sanduiche{
+    width: 40px;
+    height: 10px;
+    background-color: #698167;
+    }
+
+    /*SEÇÃO INTRO*/
+    #titulo-section-intro{
+    width: 400px;
+    }
+
+    #descricao-intro{
+    width: 450px;
+    }
+
+    .intro div h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2E4F3D;
+    }
+
+    .intro div p {
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    line-height: 193.09%;
+    color: #2E4F3D;
+    margin: 0px;
+    }
+
+    #botoes-intro{
+        width: 250px;
+    }
+
+    #botoes-intro button{
+    font-size: 10px;
+    width: 100px;
+    }
+
+
+
+    /*SEÇÃO - SOBRE*/
+
+    #titulo-section-sobre{
+    height: 84px;
+    }
+
+    #sobre-inga{
+    width: 100%;
+    height: 868px;
+    background-image: linear-gradient(to bottom, white 84px, #2E4F3D 84px);
+    }
+
+    #titulo-section-sobre h1{
+        font-size: 24px;
+        margin: 0px 0px 12px 0px;
+    }
+
+        #descricao-um{
+        background-position: -50px;
+    }
+    #descricao-dois{
+        background-position: -350px;
+    }
+
+    #descricao-um p,
+    #descricao-dois p{
+        font-size: 10px;
+    }
+}
+
+@media (min-width:781px) and (max-width:1259px) {
+    
+    /*CABEÇALHO*/
+    header, .content{
+        margin: 0px 100px;
+    }
+    #menu-sanduiche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70px;
+    height: 55px;
+    }
+
+    /*SEÇÃO INTRO*/
+    #titulo-section-intro{
+    width: 480px;
+    }
+
+    #descricao-intro{
+    width: 650px;
+    }
+
+    #menu-sanduiche .line-menu-sanduiche{
+    width: 60px;
+    height: 12px;
+    background-color: #698167;
+    }
+
+    .intro div p {
+    font-family: "Nunito", sans-serif;
+    font-size: 21px;
+    line-height: 193.09%;
+    color: #2E4F3D;
+    margin: 0px;
+    }
+
+    #botoes-intro{
+        width: 290px;
+    }
+
+    /*SEÇÃO - SOBRE*/
+    #titulo-section-sobre h1{
+        font-size: 36px;
+        margin: 0px 0px 17px 0px;
+    }
+
+
+
+    #descricao-um p,
+    #descricao-dois p{
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width: 119px){
+
+    header{
+        margin: 0px 5px;
+    }
+    header{
+        height: 120px;
+    }
+    #logo{
+    width: 60px;
+    height: auto;
+    }
+
+    #menu-sanduiche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    }
+    #menu-sanduiche .line-menu-sanduiche{
+    width: 20px;
+    height: 6px;
+    background-color: #698167;
+    }
+}

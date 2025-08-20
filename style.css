@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header,
+.content{
+    margin: 0px 200px;
+}
+
+
+#menu-navegacao, 
+#botao-cabecalho{
+    display: none;
+}
+
+#menu-navegacao li a{
+    text-decoration: none;
+    color: #2E4F3D;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+#logo{
+    width: 130px;
+    height: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+}
+
+
+
+#intro-inga{
+    width: 100%;
+    height: 611px;
+    background-image: url(images/background-intro.jpg);
+}
+.intro{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulo-section-intro{
+    width: 500px;
+}
+#descricao-intro{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    margin: 20px 0px;
+}
+
+
+#linha-descricao-intro{
+    width: 5px;
+    height: 100%;
+    margin: 0px 10px 0px 0px;
+    background-color: #698167;
+}
+.intro div h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E4F3D;
+}
+
+.intro div p {
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    line-height: 193.09%;
+    color: #2E4F3D;
+    margin: 0px;
+}
+
+
+#botoes-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    height: 100px;
+}
+
+#botoes-intro button{
+    font-size: 13px;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 1px solid #2E4F3D;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+#botoes-intro button:hover{
+    background-color: #2E4F3D;
+    color: white;
+}
+
+
+/*SEÇÃO - SOBRE*/
+#sobre-inga{
+    width: 100%;
+    height: 868px;
+    background-image: linear-gradient(to bottom, white 134px, #2E4F3D 134px);
+}
+
+#titulo-section-sobre{
+    width: 100%;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: "Nunito", sans-serif;
+}
+
+#titulo-section-sobre h1{
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0px 0px 24px 0px;
+}
+
+#descricao-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 734px;
+}
+
+#descricao-um{
+    display: flex;
+    justify-content: end;
+    background-image: url(/images/background-voluntarios-de-costas.png);
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    }
+
+#descricao-um p{
+    display: flex;
+    align-self: center;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    line-height: 204.7%;
+    width: 779px;
+    text-align: justify;
+    padding-right: 11px;
+    border-right: 11px solid #9BD396;
+}
+
+#descricao-dois{
+    display: flex;
+    justify-content: start;
+    background-image: url(/images/background-voluntarios-em-acao.png);
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    }
+
+    #descricao-dois p{
+    display: flex;
+    align-self: center;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    line-height: 204.7%;
+    width: 779px;
+    text-align: justify;
+    padding-left: 11px;
+    border-left: 11px solid #9BD396;
+}
