@@ -141,10 +141,11 @@ header{
 #descricao-um{
     display: flex;
     justify-content: end;
-    background-image: url(/images/background-voluntarios-de-costas.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(46, 79, 61, 01)),url(/images/voluntarios-de-costas.png);
+    color: white;
     width: 100%;
     height: 40%;
-    background-size: cover;
+    background-size:cover;
     }
 
 #descricao-um p{
@@ -155,17 +156,18 @@ header{
     font-weight: 200;
     font-size: 20px;
     color: white;
-    line-height: 204.7%;
+    line-height: 190.7%;
     width: 779px;
     text-align: justify;
-    padding-right: 11px;
+    padding: 0px 11px;
     border-right: 11px solid #9BD396;
 }
 
 #descricao-dois{
     display: flex;
     justify-content: start;
-    background-image: url(/images/background-voluntarios-em-acao.png);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(46, 79, 61, 01)),url(/images/full-shot-pessoas-trabalhando-juntas\ 1.png);
+    color: white;
     width: 100%;
     height: 40%;
     background-size: cover;
@@ -179,9 +181,144 @@ header{
     font-weight: 200;
     font-size: 20px;
     color: white;
-    line-height: 204.7%;
+    line-height: 190.7%;
     width: 779px;
     text-align: justify;
-    padding-left: 11px;
+    padding: 0px 11px;
     border-left: 11px solid #9BD396;
+}
+
+
+/*SEÇÃO - AÇÕES*/
+#acoes-inga{
+    width: 100%;
+    height: 798px;
+}
+
+#titulo-section-acoes{
+    width: 100%;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: "Nunito", sans-serif;
+}
+
+#titulo-section-acoes h1{
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0px 0px 24px 0px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 664px;
+}
+
+.card-acao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 364px;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.seca{
+    background-image: url(/images/background-seca.png);
+    background-size: cover;
+}
+
+.seca:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/background-seca.png);
+}
+
+.area{
+    background-image: url(/images/background-area.png);
+    background-size: cover;
+}
+
+.area:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/background-area.png);
+}
+
+.dialogo{
+    background-image: url(/images/background-dialogo-comunidade.png);
+    background-size: cover;
+}
+
+.dialogo:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/background-dialogo-comunidade.png);
+}
+
+.recuperacao{
+    background-image: url(/images/background-recuperacao.png);
+    background-size: cover;
+}
+
+.recuperacao:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/background-recuperacao.png);
+}
+
+.titulo-card,
+.descricao-card{
+    padding: 0px 20px;
+}
+
+.titulo-card h3{
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    border-width: 10px;
+    margin: 0px;
+}
+
+.descricao-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 278.28px;
+}
+.descricao-card p{
+    font-family: "Nunito", sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+    text-align: justify;
+    line-height: 38px;
+    color: white;
+    word-spacing: -1px;
+}
+.titulo-card{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    background-color: #8B6E4C;
+    width: 31.38px;
+    height: 11px;
+}
+
+/*SEÇÃO - APOIO*/
+#apoio-inga{
+    width: 100%;
+    height: 600px;
+}
+
+#titulo-section-apoio{
+    width: 100%;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: "Nunito", sans-serif;
+}
+
+#titulo-section-apoio h1{
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0px 0px 24px 0px;
 }
