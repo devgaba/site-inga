@@ -1,0 +1,78 @@
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-color: #2E4F3D;
+}
+.campos-footer{
+    display: flex;
+}
+.campo-footer{
+    width: 493px;
+    height: 357px;
+    flex: 1;
+}
+
+.background{
+    display: flex;
+    align-items: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+.campo-rodape-meio{
+    display: flex;
+    justify-content: center;
+}
+
+.linha-divisao-rodape{
+    width: 1px;
+    height: auto;
+    background-color: white;
+}
+
+.campo-rodape-meio div nav ul{
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    list-style: none;
+}
+#menu-rodape{
+    display: flex;
+    align-items: center;
+}
+#menu-rodape nav ul li{
+    margin: 20px 0px;
+}
+
+#menu-rodape nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#links-rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#links-rodape p{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}

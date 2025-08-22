@@ -198,11 +198,11 @@
     }
 
     #cards{
-        height: 600px;
+        height: auto;
     }
     .card-acao{
         width: 143px;
-        height: 50%;
+        height: 300px;
         margin-bottom: 25px;
     }
     .titulo-card h3{
@@ -218,6 +218,36 @@
     }
     .line{
         height: 5px;
+    }
+
+    /*SEÇÃO - APOIO*/
+    #titulo-section-apoio h1{
+        font-size: 24px;
+        margin: 0px 0px 12px 0px;
+    }
+    .card-apoio{
+    width: 289px;
+    height: 137px;
+    }
+
+    .campo-card-apoio h1{
+        font-size: 16px;
+    }
+
+    .campo-card-apoio p{
+        font-size: 8px;
+        margin: 0px;
+    }
+    .links{
+        height: 50px;
+    }
+
+    .links-campo-card-apoio a{
+        font-size: 8px;
+    }
+    .links-campo-card-apoio button{
+        font-size: 8px;
+        height: 28px;
     }
 }
 
@@ -309,11 +339,11 @@
     }
 
     #cards{
-        height: 600px;
+        height: auto;
     }
     .card-acao{
         width: 160px;
-        height: 50%;
+        height: 300px;
         margin-bottom: 25px;
     }
     .titulo-card h3{
@@ -328,6 +358,37 @@
     }
     .line{
         height: 5px;
+    }
+
+    /*SEÇÃO - APOIO*/
+    #titulo-section-apoio h1{
+        font-size: 24px;
+        margin: 0px 0px 12px 0px;
+    }
+
+    .card-apoio{
+    width: 330px;
+    height: 167px;
+    }
+
+    .campo-card-apoio h1{
+        font-size: 18px;
+    }
+
+    .campo-card-apoio p{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .links{
+        height: 50px;
+    }
+
+    .links-campo-card-apoio a{
+        font-size: 10px;
+    }
+    .links-campo-card-apoio button{
+        font-size: 10px;
+        height: 30px;
     }
 }
 
@@ -421,11 +482,11 @@
     }
 
     #cards{
-        height: 580px;
+        height: auto;
     }
     .card-acao{
         width: 200px;
-        height: 50%;
+        height: 290px;
         margin-bottom: 25px;
     }
     .titulo-card h3{
@@ -441,6 +502,34 @@
     }
     .line{
         height: 5px;
+    }
+
+    /*SEÇÃO - APOIO*/
+    #titulo-section-apoio h1{
+        font-size: 24px;
+        margin: 0px 0px 12px 0px;
+    }
+    
+    .card-apoio{
+    width: 440px;
+    height: 197px;
+    }
+
+    .campo-card-apoio h1{
+        font-size: 24px;
+    }
+
+    .campo-card-apoio p{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .links{
+        height: 50px;
+    }
+
+    .links-campo-card-apoio button{
+        font-size: 14px;
+        height: 32px;
     }
 }
 
@@ -507,11 +596,11 @@
     }
 
     #cards{
-        height: 664px;
+        height: auto;
     }
     .card-acao{
         width: 240px;
-        height: 50%;
+        height: 332px;
         margin-bottom: 25px;
     }
     .titulo-card h3{
@@ -529,6 +618,35 @@
     .line{
         height: 5px;
     }
+
+    /*SEÇÃO - APOIO*/
+    #titulo-section-apoio h1{
+        font-size: 36px;
+        margin: 0px 0px 17px 0px;
+    }
+
+    .card-apoio{
+    width: 499px;
+    height: 197px;
+    }
+
+    .campo-card-apoio h1{
+        font-size: 24px;
+    }
+
+    .campo-card-apoio p{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .links{
+        height: 50px;
+    }
+
+    .links-campo-card-apoio button{
+        font-size: 14px;
+        height: 32px;
+    }
+    
 }
 
 

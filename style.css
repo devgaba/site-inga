@@ -192,7 +192,7 @@ header{
 /*SEÇÃO - AÇÕES*/
 #acoes-inga{
     width: 100%;
-    height: 798px;
+    height: auto;
 }
 
 #titulo-section-acoes{
@@ -215,7 +215,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    height: 664px;
+    height: auto;
 }
 
 .card-acao{
@@ -223,7 +223,7 @@ header{
     flex-direction: column;
     justify-content: space-around;
     width: 364px;
-    height: 100%;
+    height: 664px;
     margin-bottom: 50px;
 }
 
@@ -305,7 +305,7 @@ header{
 /*SEÇÃO - APOIO*/
 #apoio-inga{
     width: 100%;
-    height: 600px;
+    height: auto;
 }
 
 #titulo-section-apoio{
@@ -321,4 +321,100 @@ header{
     font-weight: 300;
     font-size: 48px;
     margin: 0px 0px 24px 0px;
+}
+
+#cards-apoio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.card-apoio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 699px;
+    height: 247px;
+    margin-bottom: 10px;
+}
+
+.doacao{
+    background-image: url(/images/background-doacao.png);
+    background-size: cover;
+}
+
+.voluntariado{
+    background-image: url(/images/background-voluntariado.png);
+    background-size: cover;
+}
+
+.campo-card-apoio{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    padding: 0px 24px;
+}
+
+.campo-card-apoio h1{
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    padding: 0px 13px;
+    color: white;
+    border-left: 11px solid #698167;
+}
+
+.campo-card-apoio p{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    padding: 0px 24px;
+    margin-top: 20px;
+}
+.texto{
+    height: auto;
+    padding: 0px;
+}
+
+
+.links{
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.links-campo-card-apoio a{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+
+.links-campo-card-apoio button{
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    height: 46px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.links-campo-card-apoio button:hover{
+    background-color: white;
+    color: black;
+}
+.links-campo-card-apoio a:hover{
+    text-decoration: underline;
 }
