@@ -61,7 +61,8 @@ footer{
 #links-rodape{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
+    margin-top: 26px;
     margin-left: 10px;
 }
 
@@ -74,5 +75,16 @@ footer{
 
 .icons{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+#estatuto{
+    margin: 16px 0px;
+}
+#estatuto a{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
 }
