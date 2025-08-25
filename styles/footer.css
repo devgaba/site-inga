@@ -1,90 +1,57 @@
 footer{
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: 100px;
     width: 100%;
     height: 500px;
     background-color: #2E4F3D;
 }
-.campos-footer{
-    display: flex;
-}
-.campo-footer{
-    width: 493px;
-    height: 357px;
-    flex: 1;
+
+.um, .dois,.tres{
+    width: 100%;
+    height: 30%;
 }
 
-.background{
-    display: flex;
-    align-items: center;
-    background-size: auto;
-    background-repeat: no-repeat;
+.um{
+    background-color: #3F6B52;
 }
-
-
-.campo-rodape-meio{
+.dois{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    background-color: #2E4F3D/*#598C70*/;
 }
-
-.linha-divisao-rodape{
-    width: 1px;
-    height: auto;
-    background-color: white;
-}
-
-.campo-rodape-meio div nav ul{
-    padding: 0px;
-    margin: 0px 10px 0px 0px;
+.tres{
     display: flex;
     flex-direction: column;
-    align-items: end;
-    list-style: none;
+    background-color: #213a2d/*#A6CDB8*/;
 }
-#menu-rodape{
-    display: flex;
-    align-items: center;
-}
-#menu-rodape nav ul li{
-    margin: 20px 0px;
-}
-
-#menu-rodape nav ul li a{
-    color: white;
-    text-decoration: none;
+.um .content h4{
     font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 200;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
 }
 
-#links-rodape{
+.icones{
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-top: 26px;
-    margin-left: 10px;
-}
-
-#links-rodape p{
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    color: white;
-}
-
-.icons{
-    display: flex;
+    width: 50%;
     justify-content: space-between;
-    align-items: center;
 }
-#estatuto{
-    margin: 16px 0px;
+.icone img{
+    width:40px;
+    height: auto;
 }
-#estatuto a{
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+
+.dois .content nav ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+    padding: 0px;
     color: white;
-    font-weight: 200;
-    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
 }
+
