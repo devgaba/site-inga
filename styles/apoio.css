@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+#secao-home{
+    height: 55vh;
+    background-image: url(/images/background-cachoeira.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteudo-secao-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#secao-home h2{
+    font-size: 64px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 413px;
+}
+.botao-home{
+    width: 165px;
+    height: 54px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    border-radius: 5px;
+    background:none;
+    color: white;
+    border: 1px solid white;
+    font-weight: 300;
+}
+
+.botao-home:hover{
+    color: #2E4F3D;
+    background-color: white;
+}
+
+
+/*SEÇÃO - DOAÇÕES*/
+.doacoes,
+.voluntario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 881px;
+}
+#secao-doacoes{
+    width: 100%;
+    height: 881px;
+    background-color: #DAD7CD;
+}
+.topico-doacoes{
+    width: 80%;
+    height: 150px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.texto-topico{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+.texto-topico h3{
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    color: white;
+}
+.texto-topico p{
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 37px;
+    color: white;
+    margin: 0px;
+}
+.topico-doacoes .icone-topico img{
+    padding-top: 5px;
+    width: 30px;
+    height: auto;
+}
+
+#titulo-section-doacoes h1,
+#titulo-section-voluntario h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 48px;
+    border-left: 11px solid #2E4F3D;
+    padding: 6px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#descricao-doacoes,
+#descricao-voluntario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 660px;
+    width: 100%;
+    background-image: url(/images/background-maos-com-coracao.png);
+    background-repeat: no-repeat;
+}
+/*SEÇÃO - VOLUNTÁRIO*/
+#secao-voluntario{
+    width: 100%;
+    height: 881px;
+}
