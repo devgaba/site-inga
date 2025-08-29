@@ -390,6 +390,22 @@
         font-size: 10px;
         height: 30px;
     }
+
+    /*PÁGINA - APOIE*/
+
+    main #secao-home h2{
+        font-size: 24px;
+    }
+
+    main .content .botoes{
+        width: 80%;
+    }
+    main .content .botoes .botao-home{
+        width: 40%;
+        height: 40px;
+        font-size: 10px;
+    }
+
 }
 
 
@@ -531,6 +547,12 @@
         font-size: 14px;
         height: 32px;
     }
+
+    /*PÁGINA - APOIE*/
+
+    main #secao-home h2{
+        font-size: 34px;
+    }
 }
 
 @media (min-width:781px) and (max-width:1259px) {
@@ -646,7 +668,13 @@
         font-size: 14px;
         height: 32px;
     }
-    
+
+
+    /*PÁGINA - APOIE*/
+
+    main #secao-home h2{
+        font-size: 44px;
+    }
 }
 
 
