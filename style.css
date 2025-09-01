@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
+
 header,
 .content{
     margin: 0px 150px;
 }
-
 
 #menu-navegacao, 
 #botao-cabecalho{
@@ -35,6 +35,11 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 140px;
+    background-color: white; 
+    position: fixed;
+    margin: 0px;
+    padding: 0px 150px;
+    width: 100dvw;
 }
 
 
@@ -109,6 +114,11 @@ header{
 
 
 /*SEÇÃO - SOBRE*/
+
+main{
+    margin-top: 140px;
+}
+
 #sobre-inga{
     width: 100%;
     height: 868px;

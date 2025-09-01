@@ -4,7 +4,7 @@
 #secao-home{
     height: 55vh;
     background-image: url(/images/background-cachoeira.png);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -60,38 +60,6 @@
     height: 881px;
     background-color: #DAD7CD;
 }
-.topico-doacoes{
-    width: 80%;
-    height: 150px;
-    margin-top: 35px;
-    display: flex;
-    flex-direction: row;
-}
-.texto-topico{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 10px;
-}
-.texto-topico h3{
-    margin: 0px;
-    font-family: "Nunito", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    color: white;
-}
-.texto-topico p{
-    font-family: "Nunito", sans-serif;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 37px;
-    color: white;
-    margin: 0px;
-}
-.topico-doacoes .icone-topico img{
-    padding-top: 5px;
-    width: 30px;
-    height: auto;
-}
 
 #titulo-section-doacoes h1,
 #titulo-section-voluntario h1{
@@ -109,15 +77,48 @@
 #descricao-voluntario{
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex-wrap: wrap;
-    height: 660px;
+    height: 80%;
     width: 100%;
     background-image: url(/images/background-maos-com-coracao.png);
-    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.topico{
+    display: flex;
+    height: 160px;
+    width: 40%;
+    margin: 30px 0px 0px 30px;
+}
+.topico-um img{
+    padding-top: 5px;
+    width: 30px;
+}
+.descricao-topico{
+    margin-left: 10px;
+}
+.descricao-topico h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    color: white;
+    margin: 0px;
+}
+.descricao-topico p{
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+    color: white;
+    text-align: justify;
+    margin: 0px;
+}
+.descricao-topico 
+
 /*SEÇÃO - VOLUNTÁRIO*/
 #secao-voluntario{
     width: 100%;
     height: 881px;
 }
+
