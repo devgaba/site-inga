@@ -255,6 +255,40 @@
         font-size: 8px;
         height: 28px;
     }
+
+
+    /*PÁGINA - APOIO*/
+
+    #secao-home .conteudo-secao-home h2{
+        font-size: 20px;
+    }
+    #secao-home .conteudo-secao-home .botoes{
+        width: 240px;
+    }
+    #secao-home .conteudo-secao-home .botoes .botao-home{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    #descricao-doacoes,
+    #descricao-voluntario{
+        flex-wrap: nowrap;
+    }
+
+    #descricao-voluntario .topico{
+        height: 100px;
+        width: 100%;
+    }
+    #descricao-doacoes .topico .descricao-topico h3,
+    #descricao-voluntario .topico .descricao-topico h3{
+        font-size: 16px;
+    }
+    #descricao-doacoes .topico .descricao-topico p,
+    #descricao-voluntario .topico .descricao-topico p{
+        font-size: 11px;
+        line-height: 14px;
+    }  
 }
 
 
@@ -419,6 +453,27 @@
         font-size: 10px;
     }
 
+
+
+
+    #descricao-doacoes,
+    #descricao-voluntario{
+        flex-wrap: nowrap;
+    }
+
+    #descricao-voluntario .topico{
+        height: 100px;
+        width: 100%;
+    }
+    #descricao-doacoes .topico .descricao-topico h3,
+    #descricao-voluntario .topico .descricao-topico h3{
+        font-size: 16px;
+    }
+    #descricao-doacoes .topico .descricao-topico p,
+    #descricao-voluntario .topico .descricao-topico p{
+        font-size: 11px;
+        line-height: 14px;
+    }   
 }
 
 
@@ -573,6 +628,19 @@
     main #secao-home h2{
         font-size: 34px;
     }
+    .topico{
+        width: 100%;
+    }
+
+    #descricao-doacoes .topico .descricao-topico h3,
+    #descricao-voluntario .topico .descricao-topico h3{
+        font-size: 16px;
+    }
+    #descricao-doacoes .topico .descricao-topico p,
+    #descricao-voluntario .topico .descricao-topico p{
+        font-size: 11px;
+        line-height: 14px;
+    }
 }
 
 @media (min-width:781px) and (max-width:1259px) {
@@ -706,7 +774,6 @@
     .topico{
         width: 50%;
     }
-    tu
 
     #descricao-doacoes .topico .descricao-topico h3,
     #descricao-voluntario .topico .descricao-topico h3{

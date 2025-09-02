@@ -48,6 +48,14 @@
 
 
 /*SEÇÃO - DOAÇÕES*/
+#descricao-doacoes{
+    padding: 30px;
+    gap: 30px 30px;
+}
+#descricao-doacoes .topico{
+    width: 90%;
+}
+
 .doacoes,
 .voluntario{
     display: flex;
@@ -86,20 +94,19 @@
 
 .topico{
     display: flex;
-    height: 160px;
-    width: 40%;
-    margin: 30px 0px 0px 30px;
+    height: 190px;
+    width: 45%;
 }
 .topico-um img{
     padding-top: 5px;
-    width: 30px;
+    width: 25px;
 }
 .descricao-topico{
     margin-left: 10px;
 }
 .descricao-topico h3{
     font-family: "Nunito", sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 200;
     color: white;
     margin: 0px;
@@ -112,9 +119,9 @@
     line-height: 30px;
     color: white;
     text-align: justify;
-    margin: 0px;
+    margin: 10px 0px 0px 0px;
+    
 }
-.descricao-topico 
 
 /*SEÇÃO - VOLUNTÁRIO*/
 #secao-voluntario{
@@ -122,3 +129,7 @@
     height: 881px;
 }
 
+#descricao-voluntario{
+    padding: 30px;
+    gap: 30px 30px;
+}
